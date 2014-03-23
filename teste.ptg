@@ -6,7 +6,7 @@ ALGORITMO
   REPITA
     IMPRIMA "Informe o valor da base"
     LEIA b
-    IMPRIMA "Informe o valor da altura"
+    IMPRIMA ("Informe o valor da altura")
     LEIA h
 
     SE b < 1 OU h < 1

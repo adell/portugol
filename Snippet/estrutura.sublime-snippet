@@ -1,7 +1,6 @@
 <snippet>
-  <content><![CDATA[
-    ALGORITMO
-      #Declarando a variaveis
+  <content><![CDATA[ALGORITMO
+      #Declarando as variaveis
       DELCARE ${1:variaveis separadas por virgula} : ${2:Tipo das variaveis}
 
       #Inicializando as variaveis
@@ -10,9 +9,8 @@
       #Loop para o programa
       REPITA
         ${8:COMANDOS}
-      ATÉ ${5:Valor incial} ${6:>} ${7:Valor Final}
-    FIM_ALGORITMO
-    ]]></content>
+      ATÉ ${5:Variavel a ser testada} ${6:teste logico (>, <, >=} ${7:Valor do teste}
+    FIM_ALGORITMO]]></content>
   <tabTrigger>ptg-ne</tabTrigger>
   <description>Estrutura portugol</description>
   <scope>text.ptg</scope>
