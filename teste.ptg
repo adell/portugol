@@ -1,0 +1,20 @@
+ALGORITMO
+
+  DECLARE area, b, h : NUMERICO
+  DECLARE sair: LOGICO
+
+  REPITA
+    IMPRIMA "Informe o valor da base"
+    LEIA b
+    IMPRIMA "Informe o valor da altura"
+    LEIA h
+
+    SE b < 1 OU h < 1
+      IMPRIMA "Valores devem ser numericos e positivos"
+    SENÃO
+      area = b * h / 2
+      IMPRIMA "A area do triangulo é:", area
+      sair = VERDADEIRO
+  ATÉ sair VERDADEIRO
+
+FIM_ALGORITMO
